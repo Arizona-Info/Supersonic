@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>Supersonic Distribution & Services Pvt. Ltd.</title>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="css/plugins.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+    <!-- modal -->
+    <div class="modal fade" id="contact_form" tabindex="-1" aria-labelledby="formModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="formModal">Enquiry Form</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="ti-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="animate-box" data-animate-effect="fadeInUp">
+                        <form method="post" class="row">
+                            <div class="col-lg-6">
+                                <input type="text" name="name" id="name" placeholder="Full Name">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="email" name="email" id="email" placeholder="Your Email" required="">
+                            </div>
+                            <div class="col-lg-12">
+                                <textarea name="message" id="message" cols="40" rows="2" placeholder="Address"></textarea>
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" name="name" id="name" placeholder="Contact No.">
+                            </div>
+                            <div class="col-lg-6 align-self-center">
+                                <select>
+                                    <option selected="">Select Product</option>
+                                    <option>Paper Products</option>
+                                    <option>Power Equipments & Cables</option>
+                                    <option>Automotives</option>
+                                    <option>White Goods & Home Appliances</option>
+                                    <option>Agro Commodities</option>
+                                    <option>Chemicals</option>
+                                    <option>Food & Beverages</option>
+                                    <option>Building Materials</option>
+                                    <option>Machinery and Spare parts</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-12">
+                                <textarea name="message" id="message" cols="40" rows="4" placeholder="Enquiry About"></textarea>
+                            </div>
+                            <div class="col-lg-12 text-center">
+                                <button class="butn-dark mt-15"><a href="#"><span>Submit</span><i class="ti-arrow-right"></i></a></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+    <div class="modal fade" id="application_form" tabindex="-1" aria-labelledby="formModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="formModal">Application Form</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="ti-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="animate-box" data-animate-effect="fadeInUp">
+                        <p class="line-height-20">Please Complete the Form below to apply for a position with us:</p>
+                        <form method="post" class="row">
+                            <div class="col-lg-6">
+                                <input type="text" name="name" id="name" placeholder="First Name">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" name="name" id="name" placeholder="Last Name">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="email" name="email" id="email" placeholder="Your Email" required="">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" name="number" id="number" placeholder="Phone Number" required="">
+                            </div>
+                            <div class="col-lg-6">
+                                <select>
+                                    <option selected="">Applying for Position</option>
+                                    <option>Associate/ Senior Associate</option>
+                                    <option>Assistant Manager</option>
+                                    <option>Sales Executive</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-6">
+                                <select>
+                                    <option selected="">Select Gender</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-12">
+                                <textarea name="address" id="address" cols="40" rows="2" placeholder="Address"></textarea>
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" name="experience" id="experience" placeholder="Total Years of Experience">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" name="relevantExperience" id="relevant_experience" placeholder="Relevant Experience">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="file" name="resume" id="fileUpload" placeholder="pload Resume" required="" class=" align-self-center" />
+                            </div>
+                            <div class="col-lg-12 text-center">
+                                <button class="butn-dark mt-15"><a href="#"><span>Submit</span><i class="ti-arrow-right"></i></a></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Preloader -->
+    <!-- <div id="preloader">
+        <div class="container mt-100">
+            <div class="row justify-content-center">
+                <figure class="col-md-4 text-center"><img src="img/logo.png" alt=""></figure>
+            </div>
+        </div>
+    </div> -->
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="logo" href="index.html"><img src="img/logo.png" alt=""> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fa fa-bars"></i></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="ti-home"></i></a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active" href="javascript:void(0);">About<i class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="about.html">Overview</a></li>
+                            <li class="dropdown-item"><a href="team.html">Team</a></li>
+                            <li class="dropdown-item"><a href="career.html" class="active">Career</a></li>
+                            <li class="dropdown-item"><a href="current_openings.html">Current Openings</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="javascript:void(0);">Products<i class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="paper_products.html">Paper Products</a></li>
+                            <li class="dropdown-item"><a href="power_equipments_and_cables.html">Power Equipments & Cables</a></li>
+                            <li class="dropdown-item"><a href="automotives.html">Automotives</a></li>
+                            <li class="dropdown-item"><a href="white_goods_and_home_appliances.html">White Goods & Home Appliances</a></li>
+                            <li class="dropdown-item"><a href="agro_commodities.html">Agro Commodities</a></li>
+                            <li class="dropdown-item"><a href="chemicals.html">Chemicals</a></li>
+                            <li class="dropdown-item"><a href="food_and_beverages.html">Food & Beverages</a></li>
+                            <li class="dropdown-item"><a href="building_materials.html">Building Materials</a></li>
+                            <li class="dropdown-item"><a href="machinery_and_spare_parts.html">Machinery and Spare parts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="investor_relations.html">Investor Relations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="distributors.html">Distributors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events_and_media.html">Events & Media</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shipping_and_logistics.html">Shipping & logistics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <ul class="navbar-nav languages">
+                    <li class="nav-item dropdown"><span class="nav-link">Language <i class="ti-angle-down"></i></span>
+                        <ul class="dropdown-menu last">
+                            <li class="dropdown-item"><a href="#"><img src="img/france_flag.jpg"> French</a></li>
+                            <li class="dropdown-item"><a href="#"><img src="img/german_flag.jpg"> German</a></li>
+                            <li class="dropdown-item"><a href="#"><img src="img/china_flag.jpg"> Chinese</a></li>
+                            <li class="dropdown-item"><a href="#"><img src="img/hong_kong_flag.jpg"> Hong Kong</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="content-wrapper">
+        <!-- Header Banner -->
+        <section class="banner-header banner-img bg-img bg-fixed pb-0" data-background="img/sub_banners/career_banner.jpg">
+            <ul class="breadcrumbs">
+                <li><a href="index.html"><i class="ti-home"></i></a></li>
+                <li>Career</li>
+            </ul>
+        </section>
+        <!-- Projects -->
+        <section class="projects section-padding animate-box" data-animate-effect="fadeInUp">
+            <div class="container page-content">
+                <div class="row justify-content-center align-items-center mt-0 mb-60 pb-40">
+                    <div class="col-md-5 position-static page-heading animate-box" data-animate-effect="fadeInLeft">
+                        <h2 class="outline-txt">Career</h2>
+                        <h2 class="section-title2">Career</h2>
+                    </div>
+                    <div class="col-lg-7 animate-box" data-animate-effect="fadeInRight">
+                        <p>We’ re looking for people, who believe that if you aren’t taking a risk, it isn’t worth it. People who believe in human Potential. Because we’re creating a new way of working. A new way of understanding. And we are doing it together. So, if you’ re ready for a Challenge, we’ re ready for you.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container page-content benefits_box mb-80">
+                <div class="row justify-content-center mt-0">
+                    <div class="col-md-12 page-heading center animate-box" data-animate-effect="fadeInLeft">
+                        <h2 class="outline-txt">Benefits</h2>
+                        <h3 class="fw-500 text-center">Supersonic Distribution Employee Benefits</h3>
+                    </div>
+                    <div class="col-md-10 mt-30 text-left">
+                        <ul class="d-flex">
+                            <li class="animate-box" data-animate-effect="fadeInUp">
+                                <figure><img src="img/icons/work-from-home.png" alt=""/></figure>
+                                <p>Work From Home</p>
+                            </li>
+                            <li class="animate-box" data-animate-effect="fadeInUp">
+                                <figure><img src="img/icons/health-insurance.png" alt=""/></figure>
+                                <p>Health Insurance</p>
+                            </li>
+                            <li class="animate-box" data-animate-effect="fadeInUp">
+                                <figure><img src="img/icons/soft-skill-training.png" alt=""/></figure>
+                                <p>Soft skill Training</p>
+                            </li>
+                            <li class="animate-box" data-animate-effect="fadeInUp">
+                                <figure><img src="img/icons/team-outing.png" alt=""/></figure>
+                                <p>Team Outing</p>
+                            </li>
+                            <li class="animate-box" data-animate-effect="fadeInUp">
+                                <figure><img src="img/icons/international-relocation.png" alt=""/></figure>
+                                <p>International Relocation</p>
+                            </li>
+                            <li class="animate-box" data-animate-effect="fadeInUp">
+                                <figure><img src="img/icons/events-and-celebration.png" alt=""/></figure>
+                                <p>Events and Celebration</p>
+                            </li>
+                            <li class="animate-box" data-animate-effect="fadeInUp">
+                                <figure><img src="img/icons/travelling.png" alt=""/></figure>
+                                <p>Travelling</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container page-content mb-100 pb-40">
+                <div class="row justify-content-center">
+                    <div class="col-12 tab-panel">
+                        <ul class="list-group" id="list-tab" role="tablist">
+                            <li><a class="section-title2 active" id="purpose" data-toggle="list" href="#purposeTab" role="tab" aria-controls="">Our Purpose</a></li>
+                            <li><a class="section-title2" id="values" data-toggle="list" href="#valuesTab" role="tab" aria-controls="">Our Values</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="purposeTab" role="tabpanel" aria-labelledby="purpose">
+                                <div class="row justify-content-center animate-box" data-animate-effect="fadeInUp">
+                                    <div class="col-lg-7 text-center">
+                                        <h5 class="line-height-40 fw-300">“Unyielding commitment to build capabilities and customer experiences that have an everlasting impact to the economy and environment in which we thrive, <span class="fw-400">TOGETHER</span>.”</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="valuesTab" role="tabpanel" aria-labelledby="values">
+                                <div class="row justify-content-start align-items-md-center values_box">
+                                    <div class="col animate-box" data-animate-effect="fadeInUp">
+                                        <figure>
+                                            <img src="img/icons/adaptability.png" alt="">
+                                        </figure>
+                                        <h5>Adaptability</h5>
+                                        <hr class="color-border"/>
+                                        <p>Trust, Respect, Integrity</p>
+                                    </div>
+                                    <div class="col animate-box" data-animate-effect="fadeInUp">
+                                        <figure>
+                                            <img src="img/icons/alignment.png" alt="">
+                                        </figure>
+                                        <h5>Alignment</h5>
+                                        <hr class="color-border"/>
+                                        <p>Inclusiveness, Collaboration, Performance</p>
+                                    </div>
+                                    <div class="col animate-box" data-animate-effect="fadeInUp">
+                                        <figure>
+                                            <img src="img/icons/accountability.png" alt="">
+                                        </figure>
+                                        <h5>Accountability</h5>
+                                        <hr class="color-border"/>
+                                        <p>Customer Satisfaction, People, Communities</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container page-content applyNow_section">
+                <div class="row justify-content-end mt-0">
+                    <div class="col-md-6 pr-md-5 animate-box" data-animate-effect="fadeInRight">
+                        <h4 class="fw-500">Are you ready to Join Supersonic Distribution & Services Pvt. Ltd.</h4>
+                        <div class="butn-dark mt-40"><a href="#" class="btn-rounded" data-toggle="modal" data-target="#application_form"><span>Apply Now <i class="ti-arrow-right"></i></span></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="background bg-img bg-fixed section-padding main-footer" data-background="img/footer_bg1.jpg" data-overlay-dark="9">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 mb-50">
+                        <div class="item row justify-content-center">
+                            <figure class="col-8 col-md-6 col-lg-4 mb-0">
+                                <a href="index.html"><img src="img/logo_light.png" alt=""></a>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-30 abot">
+                        <div class="item fotcont">
+                            <div class="fothead">
+                                <h6>Links</h6>
+                            </div>
+                            <ul>
+                                <li><a href="about.html">Overview</a></li>
+                                <li><a href="team.html">Team</a></li>
+                                <li><a href="career.html">Career</a></li>
+                                <li><a href="current_openings.html">Current Openings</a></li>
+                                <li><a href="investor_relations.html">Investor Relations</a></li>
+                                <li><a href="distributors.html">Distributors</a></li>
+                                <li><a href="events_and_media.html">Events & Media</a></li>
+                                <li><a href="shipping_and_logistics.html">Shipping & logistics</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-30 abot">
+                        <div class="item fotcont">
+                            <div class="fothead">
+                                <h6>Our Products</h6>
+                            </div>
+                            <ul>
+                                <li><a href="paper_products.html">Paper Products</a></li>
+                                <li><a href="power_equipments_and_cables.html" class="active">Power Equipments & Cables</a></li>
+                                <li><a href="automotives.html">Automotives</a></li>
+                                <li><a href="white_goods_and_home_appliances.html">White Goods & Home Appliances</a></li>
+                                <li><a href="agro_commodities.html">Agro Commodities</a></li>
+                                <li><a href="chemicals.html">Chemicals</a></li>
+                                <li><a href="food_and_beverages.html">Food & Beverages</a></li>
+                                <li><a href="building_materials.html">Building Materials</a></li>
+                                <li><a href="machinery_and_spare_parts.html">Machinery and Spare parts</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-30 abot">
+                        <div class="item fotcont">
+                            <div class="fothead">
+                                <h6><i class="ti-mobile"></i> Phone</h6>
+                            </div>
+                            <p><a href="tel: +91 9833-62-3315">+91 9833-62-3315</a></p>
+                        </div>
+                        <div class="item fotcont">
+                            <div class="fothead">
+                                <h6><i class="ti-email"></i> Email</h6>
+                            </div>
+                            <p><a href="mailto: info@supersonicindia.com">info@supersonicindia.com</a></p>
+                        </div>
+                        <div class="item fotcont">
+                            <div class="fothead">
+                                <h6><i class="ti-share"></i> Follow Us On</h6>
+                            </div>
+                            <div class="social-icon">
+                                <a href="https://www.facebook.com/profile.php?id=100087011376896" class="fb" target="_blank"><i class="ti-facebook"></i></a>
+                                <!-- <a href="https://www.twitter.com/" class="tw" target="_blank"><i class="ti-twitter"></i></a> -->
+                                <a href="https://www.linkedin.com/company/supersonic-distribution-and-services-pvt-ltd" class="in" target="_blank"><i class="ti-linkedin"></i></a>
+                                <a href="https://www.instagram.com/supersonic_1501" class="insta" target="_blank"><i class="ti-instagram"></i></a>
+                            </div>
+                            <a href="contact.html">Contact Us <i class="ti-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-30 abot px-md-0">
+                        <div class="item fotcont">
+                            <div class="fothead">
+                                <h6><!-- <i class="ti-map-alt"></i> --> ISO Certified</h6>
+                            </div>
+                            <!-- <p class="mb-2 light-color">ISO Certified</p> -->
+                            <figure class="col-4 col-md-5 p-0 mb-1 text-left">
+                                <a href="certificates.html" class="w-80"><img src="img/icons/certificate-icon.png" alt=""></a>
+                            </figure>
+                            <a href="certificates.html">View Certificates <i class="ti-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="text-left">
+                                <p>© Copyright 2022, SuperSonic Distribution & Services Pvt. Ltd. All right reserved.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="right"><a href="privacy_and_security.html">Privacy & Security</a> | <a href="terms_and_conditions.html">Terms & Conditions</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--  -->
+        <a href="javascript:void(0);" class="enquiry_btn animate-box" data-placement="left" title="Enquiry" data-animate-effect="fadeInRight" data-toggle="modal" data-target="#contact_form">
+            <i class="fa fa-envelope-o"></i><span>Enquiry</span>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=919833623315&amp;text=Hello" target="_blank" class="whatsapp_btn animate-box" data-toggle="tooltip" data-placement="left" title="Whatsapp" data-animate-effect="fadeInRight">
+            <i class="fa fa-whatsapp"></i><span>Whatsapp</span>
+        </a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script> -->
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/pace.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
